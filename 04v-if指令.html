@@ -1,0 +1,52 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cn.vuejs.org/js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p v-if="condition">{{message}}</p>
+        <p v-show="condition">{{message}}</p>
+    </div>
+</body>
+<script>
+    let vm = new Vue({
+        el:"#app",
+        data:{
+            condition:true,
+            message:"hello"
+        }
+    })
+</script>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cn.vuejs.org/js/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <p v-if="condition">{{message}}</p>
+        <p v-show="condition">{{message1}}</p>
+    </div>
+</body>
+<script>
+    let vm = new Vue({
+        el:"#app",
+        data:{
+            condition:true,
+            message:"奥利给",
+            message1:"哈哈哈哈"
+        }
+    })
+</script>
+</html>

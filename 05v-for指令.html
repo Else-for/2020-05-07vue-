@@ -1,0 +1,62 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cn.vuejs.org/js/vue.js"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="item,index in words" v-bind:key="index">
+               {{index}}:{{item.text}}
+            </li>
+        </ul>   
+    </div>
+</body>
+<script>
+    let vm = new Vue({
+        el:"#app",
+        data:{
+            words:[
+                {text:"写写写"},
+                {text:"练练练"}
+            ]
+        }
+    })
+</script>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cn.vuejs.org/js/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="item,index in words" v-bind:key="index">
+                {{index}}:{{item.text}}
+            </li>
+        </ul>
+    </div>
+</body>
+<script>
+    let vm = new Vue({
+        el:"#app",
+        data:{
+            words:[
+                {text:"啦啦啦啦"},
+                {text:"绿绿绿绿绿"}
+            ]
+        }
+    })
+</script>
+</html>
